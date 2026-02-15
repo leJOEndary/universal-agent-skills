@@ -1,0 +1,13 @@
+# OpenAI Codex configuration
+# See: https://developers.openai.com/codex/skills
+
+interface:
+  display_name: "1Password"
+  short_description: "Secrets management via 1Password CLI"
+  brand_color: "#0572EC"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools: []
