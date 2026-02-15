@@ -1,0 +1,11 @@
+# OpenAI Codex configuration
+interface:
+  display_name: "Semantic PDF"
+  short_description: "AI-powered PDF parsing with structure preservation"
+  brand_color: "#DC2626"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools: []
