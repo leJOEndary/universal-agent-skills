@@ -1,0 +1,16 @@
+# OpenAI Codex configuration
+interface:
+  display_name: "Krisp"
+  short_description: "Meeting transcripts, summaries, and action items from Krisp"
+  brand_color: "#6366F1"
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "krisp"
+      description: "Krisp MCP server for meeting data"
+      transport: "streamable_http"
+      url: "https://mcp.krisp.ai/mcp"

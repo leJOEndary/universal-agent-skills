@@ -55,13 +55,14 @@ $skill-installer install the 1password skill from universal-agent-skills
 |-------|-------------|--------|
 | 1password | 1Password CLI integration for secrets management | ✅ |
 | github | GitHub CLI for issues, PRs, CI runs | ✅ |
+| krisp | Krisp meeting transcripts, summaries, action items (MCP) | ✅ |
+| semantic-pdf | AI-powered PDF parsing with MinerU (structure-aware) | ✅ |
 | slack | Slack control (reactions, pins, messages) | ✅ |
 | tldv | tl;dv meeting transcripts and highlights | ✅ |
 | weather | Weather forecasts (no API key required) | ✅ |
 | coding-agent | Run coding agents (Claude Code, Codex, etc.) | ✅ |
 | openai-whisper | Speech-to-text transcription | ✅ |
 | video-frames | Extract frames/clips from videos | ✅ |
-| nano-pdf | Natural language PDF editing | ✅ |
 
 ## Contributing
 
